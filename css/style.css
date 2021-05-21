@@ -1,15 +1,15 @@
 h1 {
-    color: cornflowerblue;
+    color: #2f5d62;
     text-align: center;
 }
 
 h2 {
-    color: plum;
+    color: #364547;
     text-align: center;
 }
 
 h3{
-    color: yellowgreen;
+    color: #ffe268;
     text-align: center;
 }
 
@@ -33,4 +33,15 @@ p {
 .text-left
 {
     text-align: left;
+    margin-left: 10px;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
 }
